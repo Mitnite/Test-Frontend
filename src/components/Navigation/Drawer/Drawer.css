@@ -1,0 +1,67 @@
+.Drawer {
+    max-width: 190px;
+    box-sizing: border-box;
+    background: #003B72;
+    height: 768px;
+}
+
+.Drawer ul {
+    list-style: none;
+    padding: 0;
+    width: 190px;
+}
+
+.Drawer ul a li {
+    height: 46px;
+    padding-left: 20px;
+}
+.link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transition: opacity .3s;
+}
+
+.active li {
+    background: #FCFCFC;
+}
+
+.active .link{
+    color: #7761FF;
+}
+
+.Logo{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+
+    color: #FFFFFF;
+}
+
+.drawer_button{
+    margin: 10px 20px;
+    width: 150px;
+    height: 40px;
+    background: #7761FF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
