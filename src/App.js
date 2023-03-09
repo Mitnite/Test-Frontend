@@ -2,34 +2,33 @@ import React, {Component} from "react";
 import './App.css';
 import {BrowserRouter, Routes, Route, NavLink} from 'react-router-dom';
 import Drawer from "./components/Navigation/Drawer/Drawer";
+import Header from "./components/Header/Header";
+import Profile from "./containers/Profile/Profile";
 
-class App extends Component {
-  render() {
+function App() {
+  return (
+      <BrowserRouter>
+        <div className={"App"}>
 
-    let activeStyle = {
-      textDecoration: "underline",
-      fontWeight: 'bold',
-      color: 'red'
-    };
+          <Drawer/>
 
-    let activeClassName = "underline";
+          <Routes>
+            <Route path="/" element={
+              <div>
+                <Header title={'Мой профиль'}/>
+                <Profile/>
+              </div>
 
-    return (
-        <BrowserRouter>
-          <div className={"App"}>
+            }/>
+            <Route path="/clinics" element={<Header title={'Врачи и клиники'}/>}/>
+            <Route path="/message" element={<Header title={'Сообщения'}/>}/>
+            <Route path="/tests" element={<Header title={'Тестирование'}/>}/>
+            <Route path="/about" element={<Header title={'Полезно знать'}/>}/>
+          </Routes>
+        </div>
+      </BrowserRouter>
+  )
 
-            <Drawer/>
-
-            <Routes>
-              <Route path="/" element={<h1>Мой профиль</h1>}/>
-              <Route path="/clinics" element={<h1>Врачи и клиники</h1>}/>
-              <Route path="/message" element={<h1>Сообщения</h1>}/>
-            </Routes>
-          </div>
-        </BrowserRouter>
-
-    );
-  }
 }
 
 export default App;

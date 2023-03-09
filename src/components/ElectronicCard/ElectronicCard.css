@@ -1,0 +1,62 @@
+.ElectronicCard{
+    width: 540px;
+    height: 183px;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #EBE7FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 16px;
+}
+
+
+.ElectronicCard .card_img{
+    width: 133px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ElectronicCard img{
+    width: 50px;
+    height: 50px;
+}
+
+.ElectronicCard .content{
+    padding-left: 36px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 407px;
+}
+
+.ElectronicCard .content .title{
+    letter-spacing: 1px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    padding: 10px 0;
+    width: 335px;
+
+    border-bottom: 2px solid #EBE7FF;
+}
+
+.ElectronicCard:hover{
+    border: 2px solid #50CAFF;
+    box-shadow: 0 0 5px #EBE7FF;
+}
+.ElectronicCard:hover .content .title{
+    border-bottom: 2px solid #50CAFF;
+}
+
+.ElectronicCard:hover .card_img{
+    background: #50CAFF;
+}
+
+.ElectronicCard:hover .content li{
+    color: #50CAFF;
+}
+.ElectronicCard:hover .content li span{
+    color: black;
+}

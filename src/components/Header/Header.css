@@ -1,0 +1,31 @@
+.Header{
+    width: 1176px;
+    max-width: 1730px;
+    height: 57px;
+    background: #50CAFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 40px 0 20px;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.header_tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.header_tools a:hover{
+    cursor: pointer;
+}

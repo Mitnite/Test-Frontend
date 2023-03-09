@@ -1,0 +1,25 @@
+.Profile{
+    padding: 15px 75px 76px 20px;
+}
+
+.Profile .title{
+    padding: 0 0 0 20px;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Profile .cards{
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
