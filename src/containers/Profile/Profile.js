@@ -35,7 +35,6 @@ import {useNavigate} from "react-router-dom";
     } else {
       appointment = <div style={{fontSize: 25, margin: 25}}>Записей нет</div>
     }
-    let write = ''
 
     return (
         <div className={'Profile'}>
@@ -46,9 +45,8 @@ import {useNavigate} from "react-router-dom";
               <div className={'card_list_more'}>
                 <p style={{margin: 0, padding: 0}}>Ещё &nbsp;
 
-                  {write = (props.appointment.length - 2) > 0 ? props.appointment.length - 2 : 0} &nbsp;
-
-                  {write = (props.appointment.length - 2 === 1) ? 'запись'
+                  {(props.appointment.length - 2) > 0 ? props.appointment.length - 2 : 0} &nbsp;
+                  {(props.appointment.length - 2 === 1) ? 'запись'
                       : props.appointment.length - 2 < 1 ? 'записей' : 'записи'
                   }
 

@@ -42,6 +42,8 @@ const AppointmentDetail = props => {
                 onDelete={props.onDelete}
             />
         )
+      } else {
+        return null
       }
     })
   }
