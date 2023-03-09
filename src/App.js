@@ -8,6 +8,8 @@ import AppointmentDetail from "./components/AppointmentDetail/AppointmentDetail"
 import doctor_1 from "./img/doctor_1.svg";
 import doctor_2 from "./img/doctor_2.svg";
 
+
+
 class App extends Component {
 
   state = {
@@ -95,7 +97,15 @@ class App extends Component {
             <Drawer/>
 
             <Routes>
-
+              <Route path="/" element={
+                <div>
+                  <Header title={'Мой профиль'}/>
+                  <Profile
+                      appointment={this.state.appointment}
+                      onDelete={index => this.DeleteHandler(index)}
+                  />
+                </div>
+              }/>
               <Route path="/profile" element={
                 <div>
                   <Header title={'Мой профиль'}/>
@@ -109,7 +119,7 @@ class App extends Component {
               <Route path="/message" element={<Header title={'Сообщения'}/>}/>
               <Route path="/tests" element={<Header title={'Тестирование'}/>}/>
               <Route path="/about" element={<Header title={'Полезно знать'}/>}/>
-              <Route path="/profile/detail" element={
+              <Route path="/detail" element={
                 <div>
                   <Header title={'Мой профиль'}/>
                   <AppointmentDetail

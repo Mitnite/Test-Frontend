@@ -9,7 +9,7 @@ import About from '../../../img/navigation_img/About.svg'
 
 
 const links = [
-  {to: '/profile', label: 'Профиль', url: Profile},
+  {to: '/', label: 'Профиль', url: Profile},
   {to: '/clinics', label: 'Врачи и клиники', url: Clinics},
   {to: '/message', label: 'Сообщения', url: Message},
   {to: '/tests', label: 'Тестирование', url: Test},

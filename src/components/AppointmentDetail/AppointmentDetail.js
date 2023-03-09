@@ -51,7 +51,7 @@ const AppointmentDetail = props => {
 
   return (
       <div className={'AppointmentDetail'}>
-        <div className={'arrow_back'} onClick={() => navigate('/profile')}>
+        <div className={'arrow_back'} onClick={() => navigate('/')}>
           <img src={back} alt="" style={{marginRight: 15}}/> Мои записи
         </div>
 
