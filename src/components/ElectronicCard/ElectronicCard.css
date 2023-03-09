@@ -32,7 +32,6 @@
 }
 
 .ElectronicCard .content .title{
-    letter-spacing: 1px;
     font-size: 28px;
     line-height: 33px;
     color: #000000;
@@ -59,4 +58,11 @@
 }
 .ElectronicCard:hover .content li span{
     color: black;
+}
+.ElectronicCard .content ul{
+    padding: 0 0 0 15px;
+}
+
+.ElectronicCard .content li{
+    margin-top: 10px;
 }

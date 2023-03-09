@@ -11,10 +11,10 @@ const Header = props => {
       <div className={'Header'}>
         <h2 className={'title'}>{props.title}</h2>
         <div className={'header_tools'}>
-          <a><img src={Search} alt="" /></a>
-          <a><img src={Eye} alt="" /></a>
-          <a><img src={Bell} alt="" /></a>
-          <a><img src={Profile} alt="" /></a>
+          <button><img src={Search} alt="" /></button>
+          <button><img src={Eye} alt="" /></button>
+          <button><img src={Bell} alt="" /></button>
+          <button><img src={Profile} alt="" /></button>
         </div>
       </div>
   )

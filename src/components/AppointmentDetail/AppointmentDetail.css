@@ -1,0 +1,38 @@
+.AppointmentDetail {
+    padding: 15px 75px 0 0;
+
+}
+
+.arrow_back {
+    margin: 0 0 15px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow_back:hover {
+    cursor: pointer;
+}
+
+.AppointmentDetail .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AppointmentDetail .appointment_container {
+    padding: 0 20px;
+    width: 525px;
+    max-height: 650px;
+    overflow-y: auto;
+}
+
+.AppointmentDetail .navigation{
+    color: #50CAFF;
+    text-decoration: underline;
+    margin-left: 65%;
+}
+
+.AppointmentDetail .navigation:hover{
+    cursor: pointer;
+}
+
+

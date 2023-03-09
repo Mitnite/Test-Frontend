@@ -29,3 +29,10 @@
 .header_tools a:hover{
     cursor: pointer;
 }
+.header_tools button:hover{
+    cursor: pointer;
+}
+.header_tools button{
+    border:none;
+    background-color: transparent;
+}
