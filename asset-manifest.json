@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/test-frontend/profile/static/css/main.2ec84282.css",
+    "main.js": "/test-frontend/profile/static/js/main.223556e7.js",
+    "static/js/787.bf588523.chunk.js": "/test-frontend/profile/static/js/787.bf588523.chunk.js",
+    "static/media/doctor_1.svg": "/test-frontend/profile/static/media/doctor_1.2acf945fe2923592d7bd66ee39595bb5.svg",
+    "static/media/doctor_2.svg": "/test-frontend/profile/static/media/doctor_2.a3c3bfc4242f7deae0644a83826f4ccd.svg",
+    "static/media/profile.svg": "/test-frontend/profile/static/media/profile.70ddf12d86aa444326c63fa2f901268f.svg",
+    "static/media/clock.svg": "/test-frontend/profile/static/media/clock.61fc564be39e0b7246123ab9ae304ef9.svg",
+    "static/media/Profile.svg": "/test-frontend/profile/static/media/Profile.34a2c147cf9e4a0ea3254953acffec05.svg",
+    "static/media/Test.svg": "/test-frontend/profile/static/media/Test.f452faa4ed6ace8679a8bcfde63f05e5.svg",
+    "static/media/Message.svg": "/test-frontend/profile/static/media/Message.4354b7c57aa148a90a7d54835f1bc977.svg",
+    "static/media/Clinics.svg": "/test-frontend/profile/static/media/Clinics.a10a4a17c54a059f961db511a78361ea.svg",
+    "static/media/add.svg": "/test-frontend/profile/static/media/add.dc82e31da87604d33224c30e372acd91.svg",
+    "static/media/About.svg": "/test-frontend/profile/static/media/About.b2d16e132f7eaae863d4a439b7f78076.svg",
+    "static/media/eye.svg": "/test-frontend/profile/static/media/eye.d72f14b39801f3195b5244cb73fce28c.svg",
+    "static/media/lab.svg": "/test-frontend/profile/static/media/lab.510ab54dc75fce5f295594a673950e24.svg",
+    "static/media/report.svg": "/test-frontend/profile/static/media/report.7ff504a8e95fd4e51ae1cee0e772b3f3.svg",
+    "static/media/bell.svg": "/test-frontend/profile/static/media/bell.cb0013f4f36565eefdb0220e45e528d5.svg",
+    "static/media/back.svg": "/test-frontend/profile/static/media/back.a6d501d74917e91fd7ced09188e2679e.svg",
+    "static/media/search.svg": "/test-frontend/profile/static/media/search.c1fa477edf37e4dc99971d8a32ab9c61.svg",
+    "index.html": "/test-frontend/profile/index.html",
+    "main.2ec84282.css.map": "/test-frontend/profile/static/css/main.2ec84282.css.map",
+    "main.223556e7.js.map": "/test-frontend/profile/static/js/main.223556e7.js.map",
+    "787.bf588523.chunk.js.map": "/test-frontend/profile/static/js/787.bf588523.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ec84282.css",
+    "static/js/main.223556e7.js"
+  ]
+}
