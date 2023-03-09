@@ -51,7 +51,7 @@ import {useNavigate} from "react-router-dom";
                   }
 
                 </p>
-                <span onClick={() => navigate('/detail')} className={'navigation'}> Подробнее </span>
+                <span onClick={() => navigate('/test-frontend/detail')} className={'navigation'}> Подробнее </span>
               </div>
             </div>
           </div>

@@ -97,7 +97,7 @@ class App extends Component {
             <Drawer/>
 
             <Routes>
-              <Route path="/" element={
+              <Route path="/test-frontend" element={
                 <div>
                   <Header title={'Мой профиль'}/>
                   <Profile
@@ -106,20 +106,12 @@ class App extends Component {
                   />
                 </div>
               }/>
-              <Route path="/profile" element={
-                <div>
-                  <Header title={'Мой профиль'}/>
-                  <Profile
-                    appointment={this.state.appointment}
-                    onDelete={index => this.DeleteHandler(index)}
-                  />
-                </div>
-              }/>
+
               <Route path="/clinics" element={<Header title={'Врачи и клиники'}/>}/>
               <Route path="/message" element={<Header title={'Сообщения'}/>}/>
               <Route path="/tests" element={<Header title={'Тестирование'}/>}/>
               <Route path="/about" element={<Header title={'Полезно знать'}/>}/>
-              <Route path="/detail" element={
+              <Route path="/test-frontend/detail" element={
                 <div>
                   <Header title={'Мой профиль'}/>
                   <AppointmentDetail
